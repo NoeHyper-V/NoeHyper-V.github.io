@@ -439,6 +439,7 @@ div#sticky-header {
     display: flex;
     align-items: center;
     position: relative;
+    border-radius: 10px
 }
 .header-action ul .header-sine::before {
     content: "";
@@ -472,6 +473,8 @@ div#sticky-header {
 }
 .header-action ul .header-sine a:hover {
 	color: #03a3ff;
+    background: #0d2538;
+    border-radius: 10px;
 }
 .header-action ul .header-sine a i {
     width: 32px;
@@ -557,6 +560,7 @@ div#sticky-header {
 }
 .header-icon {
     position: absolute;
+    
     right: 0;
     top: 0;
     bottom: 0;
@@ -664,7 +668,7 @@ div#sticky-header {
     height: 111px;
 }
 
-/* 3. Mobile-menu */
+/* Mobile-menu */
 .nav-outer .mobile-nav-toggler {
 	position: relative;
 	float: right;
@@ -987,42 +991,6 @@ div#sticky-header {
 	opacity: .5;
 	visibility: visible;
 }
-
-
-
-
-@-webkit-keyframes zoom-fade {
-  0% {
-    -webkit-transform: scale(0.9) translate(-50%, -50%);
-    transform: scale(0.9) translate(-50%, -50%);
-  }
-
-  50% {
-    -webkit-transform: scale(1) translate(-50%, -50%);
-    transform: scale(1) translate(-50%, -50%);
-  }
-
-  100% {
-    -webkit-transform: scale(0.9) translate(-50%, -50%);
-    transform: scale(0.9) translate(-50%, -50%);
-  }
-}
-@keyframes zoom-fade {
-  0% {
-    -webkit-transform: scale(0.9) translate(-50%, -50%);
-    transform: scale(0.9) translate(-50%, -50%);
-  }
-
-  50% {
-    -webkit-transform: scale(1) translate(-50%, -50%);
-    transform: scale(1) translate(-50%, -50%);
-  }
-
-  100% {
-    -webkit-transform: scale(0.9) translate(-50%, -50%);
-    transform: scale(0.9) translate(-50%, -50%);
-  }
-}
 .breadcrumb-img-two {
     max-width: 534px;
     margin: 0 auto;
@@ -1103,7 +1071,7 @@ div#sticky-header {
     margin-right: 0;
 }
 
-/* 6. Banner */
+/* Banner */
 .banner-bg {
     background-image: url(/IMG/banner_bg.jpg);
     background-position: center;
@@ -1156,18 +1124,7 @@ div#sticky-header {
 	color: #ff0303;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* 15. Live-stream */
+/*  Live-stream */
 .live-stream-bg {
     background-image: url(/IMG/live-stream_bg.jpg);
     background-position: center;
@@ -1523,50 +1480,6 @@ div#sticky-header {
     color: rgb(36, 58, 255);
 }
 
-
-@-webkit-keyframes loader-outter {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes loader-outter {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
- @-webkit-keyframes loader-inner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg);
-    }
-}
-
- @keyframes loader-inner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg);
-    }
-}
 
 
 .slick-slider
